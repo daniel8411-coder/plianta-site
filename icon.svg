@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg30" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#1a2744"/>
+      <stop offset="100%" stop-color="#2d4a7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg30)"/>
+  <!-- Upper-left: camera (450x450, offset 220) -->
+  <rect x="117" y="117" width="450" height="450" rx="80" fill="none" stroke="#e0eaf6" stroke-width="28"/>
+  <!-- Lens — single clean ring -->
+  <circle cx="342" cy="342" r="130" fill="none" stroke="#e0eaf6" stroke-width="26"/>
+  <circle cx="342" cy="342" r="46" fill="#5ec4d4" opacity="0.2"/>
+  <!-- Lower-right: clipboard -->
+  <rect x="457" y="457" width="450" height="450" rx="80" fill="none" stroke="#e0eaf6" stroke-width="28"/>
+  <!-- Three clean lines -->
+  <line x1="550" y1="605" x2="835" y2="605" stroke="#e0eaf6" stroke-width="22" stroke-linecap="round" opacity="0.6"/>
+  <line x1="550" y1="685" x2="790" y2="685" stroke="#e0eaf6" stroke-width="22" stroke-linecap="round" opacity="0.38"/>
+  <line x1="550" y1="765" x2="740" y2="765" stroke="#e0eaf6" stroke-width="22" stroke-linecap="round" opacity="0.22"/>
+</svg>
